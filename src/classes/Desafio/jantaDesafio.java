@@ -6,6 +6,6 @@ public class jantaDesafio {
         ComidaDesafio c1 = new ComidaDesafio("Pizza",1.1,"massa");
         p1.jantou(c1.peso);
         p1.jantou(c1.peso);
-        System.out.println(p1.peso)
+        System.out.println(p1.peso);
     }
 }

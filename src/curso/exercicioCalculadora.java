@@ -8,6 +8,7 @@ public class exercicioCalculadora {
     Scanner input = new Scanner(System.in);
     int numUm = input.nextInt();
     int numDois = input.nextInt();
+    Double d = input.nextDouble();
     String operador = input.next();
 
     int valor = "+".equals(operador) ? numUm + numDois:0;
